@@ -1,0 +1,8 @@
+streamlit
+pdf2image
+python-dotenv
+google-generativeai
+langchain-openai
+langchain
+openai
+PyPDF2
