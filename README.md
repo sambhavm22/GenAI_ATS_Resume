@@ -54,8 +54,3 @@ Smart ATS is a web application that helps improve resumes for Applicant Tracking
 3. OpenAI GPT Evaluation: The application sends the resume text and job description to OpenAI's GPT model, which acts as an ATS to evaluate the match and suggest missing keywords.
 4. Output: The application returns a percentage match, a list of missing keywords, and a profile summary.
 
-### Future Improvements
-
-1. Support for other resume formats (e.g., DOCX).
-2. Advanced resume parsing with more detailed feedback.
-3. Customizable ATS feedback based on different industries or job types.
