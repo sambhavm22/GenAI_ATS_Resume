@@ -13,30 +13,30 @@ Smart ATS is a web application that helps improve resumes for Applicant Tracking
 
 1. Streamlit: The web framework for building the user interface.
 2. OpenAI API: For generating resume analysis and feedback using GPT models.
-3.PyPDF2: To extract text from PDF resumes.
+3. PyPDF2: To extract text from PDF resumes.
 4. Python-dotenv: For managing environment variables securely.
 
 ### Installation
 
 1. Clone the repository:
 ```python
-   git clone https://github.com/sambhavm22/GenAI_ATS_Resume
+git clone https://github.com/sambhavm22/GenAI_ATS_Resume
 ```
 
 2. Install the required dependencies:
 ```python
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Create a .env file in the root directory and add your OpenAI API key:
 ```python
-  OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY="your_openai_api_key"
 ```
 
 ### Usage
 1. Run the Streamlit app:
 ```python
-  streamlit run app.py
+streamlit run app.py
 ```
    
 2. Upload a resume in PDF format and paste the job description into the text area.
@@ -48,12 +48,12 @@ Smart ATS is a web application that helps improve resumes for Applicant Tracking
 
 2. The following Python libraries:
 ```python
-  streamlit
-  python-dotenv  
-  langchain-openai
-  langchain
-  openai
-  PyPDF2
+streamlit
+python-dotenv  
+langchain-openai
+langchain
+openai
+PyPDF2
 ```
 
 ### How It Works
