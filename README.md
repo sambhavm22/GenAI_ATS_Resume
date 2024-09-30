@@ -19,34 +19,42 @@ Smart ATS is a web application that helps improve resumes for Applicant Tracking
 ### Installation
 
 1. Clone the repository:
-   
-- ``git clone https://github.com/sambhavm22/GenAI_ATS_Resume``
+```python
+   git clone https://github.com/sambhavm22/GenAI_ATS_Resume
+```
 
 2. Install the required dependencies:
-- ``pip install -r requirements.txt``
+```python
+  pip install -r requirements.txt
+```
 
 3. Create a .env file in the root directory and add your OpenAI API key:
-- ``OPENAI_API_KEY=your_openai_api_key``
+```python
+  OPENAI_API_KEY=your_openai_api_key
+```
 
 ### Usage
 1. Run the Streamlit app:
 ```python
-  streamlit run app.py```
+  streamlit run app.py
+```
    
-3. Upload a resume in PDF format and paste the job description into the text area.
+2. Upload a resume in PDF format and paste the job description into the text area.
 
-4. Click Submit to get the ATS evaluation, including a match percentage, missing keywords, and a summary.
+3. Click Submit to get the ATS evaluation, including a match percentage, missing keywords, and a summary.
 
 ### Requirements
 1. Python 3.10+
 
 2. The following Python libraries:
-- streamlit
-- python-dotenv
-- langchain-openai
-- langchain
-- openai
-- PyPDF2
+```python
+  streamlit
+  python-dotenv  
+  langchain-openai
+  langchain
+  openai
+  PyPDF2
+```
 
 ### How It Works
 
