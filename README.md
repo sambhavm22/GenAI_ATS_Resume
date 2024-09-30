@@ -30,11 +30,12 @@ Smart ATS is a web application that helps improve resumes for Applicant Tracking
 
 ### Usage
 1. Run the Streamlit app:
-   ``streamlit run app.py``
+```python
+  streamlit run app.py```
    
-2. Upload a resume in PDF format and paste the job description into the text area.
+3. Upload a resume in PDF format and paste the job description into the text area.
 
-3. Click Submit to get the ATS evaluation, including a match percentage, missing keywords, and a summary.
+4. Click Submit to get the ATS evaluation, including a match percentage, missing keywords, and a summary.
 
 ### Requirements
 1. Python 3.10+
@@ -54,8 +55,7 @@ Smart ATS is a web application that helps improve resumes for Applicant Tracking
 3. OpenAI GPT Evaluation: The application sends the resume text and job description to OpenAI's GPT model, which acts as an ATS to evaluate the match and suggest missing keywords.
 4. Output: The application returns a percentage match, a list of missing keywords, and a profile summary.
 
-```python
-def hello_world():
-    print("Hello, World!")
+
+
 
 
