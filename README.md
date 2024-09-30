@@ -17,10 +17,11 @@ Python-dotenv: For managing environment variables securely.
 ### Installation
 
 1. Clone the repository:
-  ``git clone https://github.com/sambhavm22/GenAI_ATS_Resume``
+   
+- ``git clone https://github.com/sambhavm22/GenAI_ATS_Resume``
 
 2. Install the required dependencies:
-   ``pip install -r requirements.txt``
+- ``pip install -r requirements.txt``
 
 3. Create a .env file in the root directory and add your OpenAI API key:
-   ``OPENAI_API_KEY=your_openai_api_key``
+- ``OPENAI_API_KEY=your_openai_api_key``
