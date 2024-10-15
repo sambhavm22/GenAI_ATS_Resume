@@ -65,5 +65,10 @@ PyPDF2
 
 
 
+For more info visit :
+
+``https://sambhavm22.medium.com/resume-evaluation-tool-using-rag-688d757666ff``
+
+
 
 
